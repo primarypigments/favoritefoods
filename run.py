@@ -17,5 +17,8 @@ def import_favorite_data(spreadsheet_name):
         # https://realpython.com/pandas-dataframe/#:~:text=The%20pandas%20DataFrame%20is%20a,with%20in%20Excel%20or%20Calc.
         pdf = pd.DataFrame(surveydata)
         return pdf
+        # https://www.youtube.com/watch?v=5RSYum-EWw4 explains "except Exception as e"
+        except Exception as e:
+        print(f"Error importing survey data: {e}")
 
       

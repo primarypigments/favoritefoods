@@ -9,3 +9,5 @@ SCOPE = [
 ]
 
 def import_favorite_data(spreadsheet_name):
+    try:
+        

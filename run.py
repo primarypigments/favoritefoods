@@ -20,5 +20,6 @@ def import_favorite_data(spreadsheet_name):
         # https://www.youtube.com/watch?v=5RSYum-EWw4 explains "except Exception as e"
         except Exception as e:
         print(f"Error importing survey data: {e}")
+        return Noe
 
       

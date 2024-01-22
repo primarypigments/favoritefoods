@@ -10,5 +10,6 @@ SCOPE = [
 
 def import_favorite_data(spreadsheet_name):
     try:
-        spreadsheet = GSPREAD_CLIENT.open(spreadsheet_name)
-
+        spreadsheet = GSPREAD_IMPORT.open(spreadsheet_name)
+        foodworksheet = spreadsheet.get_worksheet(0)
+      

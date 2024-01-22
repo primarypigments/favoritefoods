@@ -12,4 +12,6 @@ def import_favorite_data(spreadsheet_name):
     try:
         spreadsheet = GSPREAD_IMPORT.open(spreadsheet_name)
         foodworksheet = spreadsheet.get_worksheet(0)
+        srrveydata = foodworksheet.get_all_survey_records()
+
       

@@ -8,4 +8,4 @@ SCOPE = [
     "https://www.googleapis.com/auth/drive"
 ]
 
-
+def import_favorite_data(spreadsheet_name):

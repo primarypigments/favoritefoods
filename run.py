@@ -10,4 +10,5 @@ SCOPE = [
 
 def import_favorite_data(spreadsheet_name):
     try:
-        
+        spreadsheet = GSPREAD_CLIENT.open(spreadsheet_name)
+
